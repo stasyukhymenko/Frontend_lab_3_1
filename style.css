@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #9c9c9c;
+}
+
+#container {
+    background: #2ccba4;
+    margin: 100px auto;
+    width: 60%;
+    height: 700px;
+    text-align: center;
+}
+
+#header {
+    width: 100%;
+    height: 20%;
+    background: #ca3a3a;
+    line-height: 150px;
+}
+
+#imageOne {
+    background: #6fb727;
+    float: left;
+    width: 33.3%;
+    height: 60%;
+}
+
+#imageTwo {
+    background: #2fd3df;
+    float: left;
+    width: 33.3%;
+    height: 60%;
+}
+
+#imageThree {
+    background: #8c27b7;
+    float: right;
+    width: 33.3%;
+    height: 60%;
+}
+
+#imageOne h2, #imageTwo h2, #imageThree h2 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 400px;
+}
+
+#clear {
+    clear: both;
+}
+
+#footer {
+    width: 100%;
+    height: 20%;
+    background: #3a6fca;
+    line-height: 150px;
+}
